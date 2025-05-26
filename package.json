@@ -1,0 +1,18 @@
+{
+  "name": "cs361_helper",
+  "version": "1.0.0",
+  "description": "Node server: Helper to connect to zeromq server created by peer ProjectA implementation",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonardo Reyes",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "zeromq": "^6.4.2"
+  }
+}
